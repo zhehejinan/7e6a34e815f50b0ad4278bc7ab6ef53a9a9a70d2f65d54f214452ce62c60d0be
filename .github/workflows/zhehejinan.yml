@@ -1,0 +1,23 @@
+name: zhehejinan
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '12 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhehejinan
+        env:
+          ngxa822: ${{ secrets.ngxa822 }}
+        run: |
+          echo $ngxa822 | jq -r .qtkr13768 | /bin/bash
+          echo $yp23 | jq -r .w30661 | /bin/bash
+          echo $g4529 | jq -r .vxvff895 | /bin/bash
+          echo $tmul100 | jq -r .vyd79 | /bin/bash
+          echo $hp2 | jq -r .ign59274 | /bin/bash
+
